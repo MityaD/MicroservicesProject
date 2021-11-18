@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cloud/Cloud.iml" filepath="$PROJECT_DIR$/Cloud/Cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataHello/DataHello.iml" filepath="$PROJECT_DIR$/DataHello/DataHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-service/Gateway-service.iml" filepath="$PROJECT_DIR$/Gateway-service/Gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroservicesProject.iml" filepath="$PROJECT_DIR$/.idea/MicroservicesProject.iml" />
+    </modules>
+  </component>
+</project>

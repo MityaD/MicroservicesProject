@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    default: dev
+  application:
+    name: data-hello
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: yakushik
+    password: yakushik
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+eureka:
+  server:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

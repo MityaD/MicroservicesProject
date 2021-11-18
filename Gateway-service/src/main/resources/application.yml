@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway
+
+zuul:
+  ribbon:
+    eager-load:
+      enabled: true
+  sensitive-headers:
+  routes:
+    hello:
+      path: /hello/**
+      service-id: hello
+      stripPrefix: true
+
+    data-hello:
+      path: /data-hello/**
+      service-id: data-hello
+      stripPrefix: true
